@@ -1,0 +1,334 @@
+body {
+  color: #434455;
+  background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover,
+a:focus {
+  color: #4d5ae5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+
+.main-header {
+  color: #ffffff;
+  line-height: 1.07;
+  font-size: 56px;
+  letter-spacing: 0.02em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.second-header {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.third-header {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+.paragraph {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.48px;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+  color: #4d5ae5;
+}
+
+.logo-second-part {
+  color: #2e2f42;
+}
+
+.link {
+  background-color: #ffffff;
+}
+
+.link:hover,
+.link:focus {
+  color: #404bbf;
+}
+
+.adress-data {
+  letter-spacing: 0.02em;
+  color: #434455;
+  line-height: 1.5;
+}
+
+.adress-data:hover,
+.adress-data:focus {
+  color: #404bbf;
+}
+
+.first-section {
+  background-color: #2e2f42;
+}
+
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  line-height: 1.5;
+  letter-spacing: 0.96px;
+  cursor: pointer;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
+}
+
+.section-our-team {
+  background-color: #f4f4fd;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #ffffff;
+}
+
+.logo-footer-part {
+  color: #f4f4fd;
+}
+
+.footer-paragraph {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+  line-height: 1.5;
+}
+
+/* Стилі для дз №3 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+img {
+  display: block;
+}
+
+.page-header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-right: 76px;
+}
+
+.list {
+  display: flex;
+  gap: 40px;
+}
+
+.link {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.list-item {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.first-section {
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
+.main-header {
+  max-width: 496px;
+  margin: 0 auto 48px auto;
+}
+
+.button {
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.section-advantages {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+.list-section {
+  display: flex;
+  gap: 24px;
+}
+
+.item-section {
+  width: calc((100% - 72px) / 4);
+}
+
+.third-header {
+  margin-bottom: 8px;
+}
+
+.section-our-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.second-header {
+  margin-bottom: 42px;
+}
+
+.decorate-item {
+  border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
+}
+
+.name-and-position {
+  padding: 32px 0;
+}
+
+.name {
+  text-align: center;
+}
+
+.position {
+  text-align: center;
+}
+
+.section-portfolio {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.margin-header {
+  margin-bottom: 72px;
+}
+
+.list-portfolio {
+  display: flex;
+  column-gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+
+.item-portfolio {
+  width: calc((100% - 48px) / 3);
+  background-color: #fff;
+}
+
+.app-kategory {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
+.footer {
+  padding: 100px 0;
+}
+
+.footer .logo {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.footer-paragraph {
+  max-width: 264px;
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
